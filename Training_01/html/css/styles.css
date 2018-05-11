@@ -1,0 +1,270 @@
+body {
+  background: #62b5ea;
+  color: gray;
+  line-height: 1.5;
+  text-align: justify; }
+
+.ls {
+  margin-right: 0 !important; }
+
+.lsm {
+  margin-right: 0 !important; }
+
+.flr {
+  float: right !important; }
+
+.bor-ri {
+  border-right: 1px dotted #bcbcbc; }
+
+.items {
+  cursor: pointer; }
+
+.container {
+  background: #ffffff;
+  padding: 20px 32px 0px 32px;
+  width: 1024px;
+  margin: 0 auto;
+  border-bottom: 1px solid #bcbcbc; }
+
+.clearfix {
+  content: "";
+  display: block;
+  visibility: none;
+  clear: both; }
+
+.header-bor {
+  max-width: 1024px;
+  margin: 0 auto;
+  border-top: 4px solid #000000;
+  border-bottom: 2px solid #eeeeee; }
+
+.logo {
+  float: left; }
+  .logo .img-logo {
+    float: left; }
+  .logo .slogan {
+    float: left;
+    margin-left: 20px;
+    font-size: 12px; }
+
+.textlink {
+  float: right; }
+  .textlink ul li {
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+    list-style: none;
+    padding-right: 20px; }
+    .textlink ul li img {
+      padding-right: 4px; }
+    .textlink ul li:last-child {
+      padding-right: 0px; }
+
+.nav-bar {
+  font-family: Meiryo UI; }
+  .nav-bar ul {
+    padding-top: 31px;
+    margin: 0px; }
+    .nav-bar ul li {
+      width: 137px;
+      padding: 0px 0 16px 0;
+      float: left;
+      list-style: none; }
+      .nav-bar ul li a {
+        color: #313131;
+        padding: 0px 25px;
+        font-size: 14px;
+        border-left: 1px dotted #bcbcbc;
+        text-decoration: none; }
+    .nav-bar ul .active {
+      border-bottom: 2px solid #0081cc !important; }
+      .nav-bar ul .active a {
+        color: #0081cc !important; }
+    .nav-bar ul li:hover {
+      border-bottom: 2px solid #0081cc; }
+      .nav-bar ul li:hover a {
+        color: #0081cc !important; }
+
+.container {
+  border: none !important; }
+
+.body-containt {
+  margin-top: 30px;
+  padding-bottom: 49px;
+  color: #4a4a4a; }
+  .body-containt .left-containt {
+    float: left;
+    width: 760px;
+    padding-right: 20px; }
+    .body-containt .left-containt .noti {
+      font-size: 12px;
+      text-decoration: underline;
+      color: #e60012;
+      display: flex;
+      background: #fde8ea;
+      border: 1px solid #ff0000; }
+      .body-containt .left-containt .noti img {
+        height: 42px;
+        padding: 11px 10px; }
+      .body-containt .left-containt .noti span {
+        padding: 14px 0; }
+    .body-containt .left-containt .top-items {
+      padding-top: 30px;
+      font-size: 12px; }
+      .body-containt .left-containt .top-items .items {
+        width: 234px;
+        float: left;
+        margin-right: 19px; }
+        .body-containt .left-containt .top-items .items:last-child {
+          margin-right: 0px; }
+        .body-containt .left-containt .top-items .items img {
+          width: 234px;
+          height: 80px;
+          margin-bottom: 14px; }
+    .body-containt .left-containt .bot-items {
+      padding-top: 24px;
+      font-size: 12px; }
+      .body-containt .left-containt .bot-items .items {
+        width: 360px;
+        float: left; }
+        .body-containt .left-containt .bot-items .items:last-child {
+          float: right; }
+        .body-containt .left-containt .bot-items .items img {
+          width: 360px;
+          height: 80px;
+          margin-bottom: 14px; }
+    .body-containt .left-containt .tab-items {
+      font-family: Meiryo UI;
+      cursor: pointer;
+      padding-top: 30px;
+      color: #717171; }
+      .body-containt .left-containt .tab-items .active {
+        color: #0081cc !important;
+        z-index: 2 !important;
+        text-decoration: none !important;
+        border-bottom-color: #ffffff !important; }
+        .body-containt .left-containt .tab-items .active .btn-name {
+          background: #ffffff !important; }
+        .body-containt .left-containt .tab-items .active img {
+          visibility: hidden; }
+      .body-containt .left-containt .tab-items .tab-control {
+        position: relative; }
+        .body-containt .left-containt .tab-items .tab-control:after {
+          position: absolute;
+          content: "";
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          border-bottom: 1px solid #AAA;
+          z-index: 1; }
+        .body-containt .left-containt .tab-items .tab-control:before {
+          z-index: 1; }
+        .body-containt .left-containt .tab-items .tab-control .button {
+          position: relative;
+          z-index: 0;
+          float: left;
+          color: gray;
+          width: 25%;
+          text-decoration: underline;
+          font-size: 12px; }
+          .body-containt .left-containt .tab-items .tab-control .button .btn-name {
+            background: #efefef;
+            padding: 15px 0px;
+            border: 1px solid #bcbcbc;
+            margin: 0 4px;
+            border-radius: 5px 5px 0 0;
+            border-bottom: 0px; }
+            .body-containt .left-containt .tab-items .tab-control .button .btn-name img {
+              margin: 0 17px 0 11px; }
+            .body-containt .left-containt .tab-items .tab-control .button .btn-name:first-child {
+              margin-left: 0px; }
+      .body-containt .left-containt .tab-items .tab-content {
+        padding: 1px 20px;
+        font-size: 12px;
+        border: 1px solid #bcbcbc;
+        border-top: none; }
+        .body-containt .left-containt .tab-items .tab-content .tab {
+          display: none; }
+          .body-containt .left-containt .tab-items .tab-content .tab ul li {
+            list-style: none;
+            padding: 15px 0;
+            border-bottom: 1px dotted #bcbcbc;
+            text-decoration: underline; }
+            .body-containt .left-containt .tab-items .tab-content .tab ul li:last-child {
+              border-bottom: none; }
+            .body-containt .left-containt .tab-items .tab-content .tab ul li img {
+              padding-right: 5px; }
+            .body-containt .left-containt .tab-items .tab-content .tab ul li:first-child {
+              padding-top: 21px; }
+  .body-containt .right-containt {
+    font-size: 12px;
+    float: right;
+    width: 200px; }
+    .body-containt .right-containt h2 {
+      font-size: 14px;
+      color: #ffffff;
+      background: #000000;
+      padding: 15px 9px;
+      font-weight: bold; }
+    .body-containt .right-containt .side-content {
+      text-decoration: underline;
+      padding: 15px 15px 13px 15px;
+      border: 1px solid #bcbcbc; }
+      .body-containt .right-containt .side-content .side-items {
+        padding: 1.5px 0; }
+        .body-containt .right-containt .side-content .side-items:first-child {
+          padding-top: 0; }
+        .body-containt .right-containt .side-content .side-items:last-child {
+          padding-bottom: 0; }
+      .body-containt .right-containt .side-content img {
+        padding-right: 14px; }
+  .body-containt .side-img .img-items {
+    padding-top: 20px;
+    width: 100%; }
+    .body-containt .side-img .img-items img {
+      width: 100%; }
+
+footer {
+  font-family: Meiryo UI; }
+  footer .footer-bor {
+    width: 1024px;
+    border-top: 1px solid #bcbcbc;
+    margin: 0 auto; }
+  footer .container {
+    background: #eeeeee;
+    padding-top: 0; }
+    footer .container .ft-containt {
+      float: left;
+      font-size: 12px;
+      padding-top: 14px;
+      width: 721px; }
+      footer .container .ft-containt .ft-top {
+        padding-bottom: 17px; }
+        footer .container .ft-containt .ft-top .ft-items {
+          float: left;
+          padding-right: 20px; }
+          footer .container .ft-containt .ft-top .ft-items img {
+            padding-right: 5px; }
+      footer .container .ft-containt .ft-bot .ft-textlink {
+        padding: 0px 0px 36px 0; }
+        footer .container .ft-containt .ft-bot .ft-textlink a {
+          padding: 0 15px;
+          border-right: 1px dotted #bcbcbc; }
+          footer .container .ft-containt .ft-bot .ft-textlink a:first-child {
+            padding-left: 0; }
+          footer .container .ft-containt .ft-bot .ft-textlink a:last-child {
+            border-right: none; }
+    footer .container .ft-logo {
+      font-size: 10px;
+      width: 239px;
+      text-align: right;
+      float: right;
+      padding-top: 15px; }
+      footer .container .ft-logo .logo {
+        float: right;
+        width: 69px;
+        height: 25px; }
+      footer .container .ft-logo .copyright {
+        padding-top: 10px; }
+
+/*# sourceMappingURL=styles.css.map */

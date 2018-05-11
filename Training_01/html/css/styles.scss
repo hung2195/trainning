@@ -1,0 +1,374 @@
+body{
+background: #62b5ea;
+color: gray;
+// font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+line-height: 1.5;
+text-align: justify;
+}
+$colortext:#0081cc;
+.ls{
+	margin-right: 0!important;
+}
+.lsm{
+	margin-right: 0!important;
+}
+.flr{
+	float: right!important;
+}
+.bor-ri{
+	border-right: 1px dotted #bcbcbc;
+}
+.items{
+	cursor: pointer;
+}
+.container{
+	background: #ffffff;
+	padding: 20px 32px 0px 32px;
+	width: 1024px;
+	margin: 0 auto;
+	border-bottom: 1px solid #bcbcbc;
+
+}
+.clearfix{
+	content: "";
+	display: block;
+	visibility: none;
+	clear: both;
+}
+.header-bor{
+	max-width: 1024px;
+	margin: 0 auto;
+	border-top:4px solid #000000;
+	border-bottom:2px solid #eeeeee;
+
+}
+.logo {
+	float: left;
+	.img-logo{
+		float: left;
+	}
+	.slogan{
+		float: left;
+		margin-left: 20px;
+		font-size: 12px;
+	}
+}
+.textlink {
+	float: right;
+
+	ul {
+		li {
+			font-size: 12px;
+			text-decoration: none;
+			float: left;
+			list-style: none;
+			padding-right: 20px;
+			img {
+				padding-right: 4px;
+			}
+			&:last-child{
+			padding-right: 0px;
+
+			}
+		}
+	}
+}
+.nav-bar{
+	// height: 64px;
+font-family: Meiryo UI;
+
+	ul {
+		padding-top: 31px;
+		margin:0px;
+		li {
+			width: 137px;
+			padding: 0px 0 16px 0;
+			float: left;
+			list-style: none;
+			// border-bottom: 2px solid #eeeeee;
+				a {
+				// text-decoration: uperscase;
+				color: #313131;
+
+				padding: 0px 25px;
+				font-size: 14px;
+				border-left: 1px dotted #bcbcbc;
+				text-decoration: none;
+
+				}
+		}
+		.active{
+			border-bottom: 2px solid #0081cc!important;
+			a{
+				color: #0081cc!important;
+
+			}
+		}
+		li:hover{
+			border-bottom: 2px solid #0081cc;
+			a{
+				color: #0081cc!important;
+
+			}
+		}
+	}
+}
+// .body {
+	.container{
+		border: none!important;
+	}
+.body-containt {
+	margin-top: 30px;
+	padding-bottom: 49px;
+	color: #4a4a4a;
+	.left-containt{
+		float: left;
+		width: 760px;
+		padding-right: 20px;
+		.noti{
+			font-size: 12px;
+			text-decoration: underline;
+			color: #e60012;
+			display: flex;
+			background: #fde8ea;
+			border: 1px solid #ff0000;
+			img {
+				height: 42px;
+				padding: 11px 10px;
+			}
+			span{
+			padding: 14px 0;
+
+			}
+		}
+		.top-items{
+			padding-top: 30px;
+			font-size: 12px;
+			.items{
+				width: 234px;
+				float: left;
+				margin-right: 19px;
+				&:last-child{
+					margin-right: 0px;
+				}
+				img{
+					width: 234px;
+					height: 80px;
+					margin-bottom: 14px;
+				}
+			}
+		}
+		.bot-items{
+			padding-top: 24px;
+			font-size: 12px;
+			.items{
+				width: 360px;
+				float: left;
+				// padding-right: 20px;
+				&:last-child{
+					// padding-right: 0px;
+					float: right;
+				}
+				img{
+					width: 360px;
+					height: 80px;
+					margin-bottom: 14px;
+
+				}
+
+				
+			}
+		}
+		.tab-items{
+			font-family: Meiryo UI;
+
+			cursor: pointer;
+			padding-top: 30px;
+			color: #717171;
+			.active{
+				color: $colortext!important;
+				z-index: 2!important;
+				text-decoration: none!important;
+				border-bottom-color:#ffffff!important; 
+				.btn-name{
+				background: #ffffff!important;
+					
+				}
+				img{
+					// display: block;
+					visibility: hidden;
+				}
+			}
+			.tab-control{
+				// line-height: 24px;
+				position: relative;
+				&:after{
+					position: absolute;
+				 	 content: "";
+				 	 width: 100%;
+				 	 bottom: 0;
+				 	 left: 0;
+					 border-bottom: 1px solid #AAA;
+				  	 z-index: 1;
+				}
+				&:before{
+					z-index: 1;
+
+				}
+				.button{
+					position: relative;
+					z-index: 0;
+					float: left;
+					color: gray;
+					width: 25%;
+					text-decoration: underline;
+					font-size: 12px;
+					.btn-name{
+						background: #efefef;
+						padding: 15px 0px;
+						border: 1px solid #bcbcbc;
+						margin:0 4px;
+						border-radius: 5px 5px 0 0;
+						border-bottom: 0px;
+						
+						img{
+							margin: 0 17px 0 11px;
+						}
+						&:first-child{
+							margin-left: 0px;
+						}
+					}
+					
+				}
+
+			}
+			.tab-content{
+				padding: 1px 20px;
+				font-size: 12px;
+				border: 1px solid #bcbcbc;
+				border-top:none;
+				.tab{
+					display: none;
+					ul{
+						li{
+							list-style: none;
+							padding: 15px 0;
+							border-bottom: 1px dotted #bcbcbc;
+							text-decoration: underline;
+							&:last-child{
+								border-bottom: none;
+								}
+							img{
+								padding-right: 5px;
+							}
+							&:first-child{
+								padding-top: 21px;
+							}
+						}
+					}
+				}
+
+			}
+		}
+	}
+	.right-containt{
+		font-size: 12px;
+		float: right;
+		width: 200px;
+		h2{
+			font-size: 14px;
+			color: #ffffff;
+			background: #000000;
+			padding: 15px 9px;
+			font-weight: bold;
+		}
+		.side-content{
+			text-decoration: underline;
+			padding: 15px 15px 13px 15px;
+			border:1px solid #bcbcbc;
+			.side-items{
+				padding: 1.5px 0;
+				&:first-child{
+					padding-top: 0;
+				}
+				&:last-child{
+					padding-bottom: 0;
+				}
+			}
+			img{
+				padding-right: 14px;
+			}
+		}
+	}
+	.side-img{
+		.img-items{
+			padding-top:20px;
+			width: 100%;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}
+// }
+footer{
+font-family: Meiryo UI; 
+	.footer-bor{
+		width: 1024px;
+		border-top: 1px solid #bcbcbc;
+		margin: 0 auto;
+	}
+.container{
+	background: #eeeeee;
+	// padding-top:49px;
+	padding-top: 0;
+.ft-containt{
+	float: left;
+	font-size: 12px;
+	padding-top: 14px;
+	width: 721px;
+	.ft-top{
+		padding-bottom: 17px;
+		.ft-items{
+			float: left;
+			padding-right: 20px;
+			img{
+				padding-right: 5px;
+			}
+		}
+	}
+	.ft-bot{
+		.ft-textlink{
+			padding: 0px 0px 36px 0;
+			a{
+				padding: 0 15px;
+				border-right: 1px dotted #bcbcbc;
+				&:first-child{
+				padding-left: 0;
+				
+			}
+			&:last-child{
+				border-right: none;
+				}
+			}
+
+		}
+		}
+	}
+.ft-logo{
+		font-size: 10px;
+		width: 239px;
+		text-align: right;
+		float: right;
+		padding-top: 15px;
+		.logo{
+			float: right;
+			width: 69px;
+			height: 25px;
+		}
+		.copyright{
+			padding-top: 10px;
+		}
+	}
+}
+}
