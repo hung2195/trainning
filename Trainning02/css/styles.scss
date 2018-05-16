@@ -1,0 +1,398 @@
+$color01:#ff0a06;
+li {
+	list-style: none;
+}
+
+img {
+	margin:0px; padding:0px; float: left;border:0px;
+}
+a {
+	color: #ffffff;
+}
+.last-child{
+	padding-right: 0px!important;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+.container{
+	min-width: 1100px;
+	margin: 0 auto;
+	background: url("../img/bg_news.jpg");
+}
+.width_contain{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/*------------Header----------*/
+.header_contain{
+	background: $color01;
+}
+.top_header {
+	padding: 16px 0px 0 0;
+	margin: 0 auto;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-size: 13px;
+	ul{
+		float: right;
+		li{
+			padding-right: 43px;
+			float: left;
+			list-style: none;
+			a{
+				color: #FFFFFF;
+				text-decoration: none;
+			}
+			img{
+				padding-right: 6px;
+				float: none;
+				&:last-child{
+					// padding-right: 0!important;
+				}
+			}
+			&:last-child{
+				padding-right: 0;
+			}
+		}	
+	}
+}
+.ico_social{
+	padding-left: 4px;
+	img{
+		padding-right : 4px;
+		&:last-child{
+			// padding-right: 0px!important;
+		}
+	}
+}
+.bot_header{
+	padding:10px 0px 0px 0px;
+	background: #000000;
+}
+		
+.logo{
+	float: left;
+	width: 109px;
+	height: 52px;
+	img{
+		width: 100%;
+	}
+}
+.nav_bar{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	float: right;
+	ul{
+		li{
+			float: left;
+			padding:25px 83px 17px 0;
+			&:last-child{
+				padding-right: 0px;
+			}
+			a{
+				color:#ffffff;
+				text-decoration: none;
+			}
+		}
+	}
+}
+/*------------Header----------*/
+/*------------side_nav_fixed----------*/
+.side_nav{
+		position: fixed;
+		z-index: 9999;
+		transition: 0.3s;
+		right: -200px;
+		.side01{
+		// border: 1px solid #f20c09;
+			padding: 103px 0 0 75px	;
+			img {
+			float: none;
+			cursor: pointer;
+			display: block;
+			margin-bottom: 25px;
+		}
+	}
+	.page_top{
+		cursor: pointer;
+		z-index: 9999;
+		position: fixed;
+		bottom: 0;
+		// right: 0px;
+	}
+}
+.scroll{
+	right: 0px!important;
+}
+/*------------side_nav_fixed----------*/
+/*------------sider----------*/
+.nivoSlider{
+	margin:0!important;
+	box-shadow:none;
+}
+.nivo-controlNav{
+	padding: 17px!important;
+	background: #000000;
+	height: 52px;
+}
+.theme-default .nivo-controlNav a {
+	display:inline-block;
+	width:12px;
+	height:12px;
+	background: #626262; 
+	text-indent:-9999px;
+	border-radius: 50%;
+	border:0;
+	margin: 0 6px;
+}
+.theme-default .nivo-controlNav a.active {
+	background: #ff1b1b;
+}
+/*------------sider----------*/
+/*------------top_contain----------*/
+.items_contain{
+	position: relative;
+	width: 50%;
+	float: left;
+	img {
+		// position: absolute;
+		width: 100%;
+	}
+	.items_content{
+		position: absolute;
+		width: 220px;
+		height: 200px;
+		transform: translate(-50%,-50%);
+		top: 50%;
+		left: 50%;
+		line-height: 200px;
+		text-align: center;
+		border: 2px solid #ffffff;
+		padding: 0 35px;
+	}
+	.txt_content{
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+		color: #ffffff;
+		p {
+			font-size: 14.45px;
+		}
+	}
+	.item_title{
+		margin-bottom: 10px;
+		font-weight: bold;
+		font-size: 32.65px!important;
+	}
+}
+/*------------top-contain----------*/
+/*------------news----------*/
+.news{
+	padding:100px 0px 67px 0px;
+	.news_logo{
+		float: left;
+		width: 169px;
+	}
+	.news_contain{
+		float: left;
+	}
+	ul {
+		li {
+			padding-left: 55px;
+			padding-bottom:25px;
+			&:last-child {
+				padding-bottom: 0;
+			}
+			a {
+				text-decoration: none;
+				color: #000000;
+			}
+			&:after{
+				content: "";
+				clear: both;
+				display: block;
+				visibility: hidden;
+			}
+		}
+	}
+	.news_date{
+		font-weight: bold;
+		float: left;
+	}
+	.news_thumb{
+		text-align: center;
+		float: left;
+		width: 156px;
+		color: #ffffff;
+		padding: 5px 0px;
+		background: #a9e830;
+		font-size: 12px;
+		margin-left: 21px;
+		font-weight: bold;
+	}
+	.thumb2{
+		background: #0139b0;
+	}
+	.thumb3{
+		background: #000000;
+	}
+	.news_title{
+		font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+		float: left;
+		font-size: 14px;
+		margin-left: 22px;
+	}
+}
+/*------------section01----------*/
+/*------------img_lib----------*/
+.row_img{
+	.items{
+		position: relative;
+		width: 50%;
+		float: left;
+		img {
+			// position: absolute;
+			width: 100%;
+		}
+		.title_img{
+			width: 210px;
+			height: 206px;
+			border-radius: 50%;
+			background: rgba(255,255,255, 0.5);
+			position: absolute;
+			transform: translate(-50%,-50%);
+			top: 50%;
+			left: 78%;
+			border: 1px solid #ffffff;
+				line-height: 200px;
+			padding: 0 35px ;
+			text-align: center;
+	}
+	.txt_img{
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+		p {
+			font-size: 14px;
+			font-weight: bold;
+			}
+			.title{
+				margin-bottom: 10px;
+				font-size: 22.35px;
+			}
+		}
+	}
+}
+/*------------img_lib----------*/
+/*------------content----------*/
+.content{
+	padding:100px 0px 70px 0px;
+		.title_h2 {
+			font-size: 40px;
+			font-family: "Times New Roman", Times, serif;
+		}
+		.title{
+			padding-bottom: 68px;
+			p {
+				font-weight: bold;
+				font-size: 14px;
+			}
+		}
+	.row_content{
+		padding-bottom: 25px;
+		&:last-child{
+			padding-bottom: 0;
+		}
+		li {
+			cursor: pointer;
+			float: left;
+			padding-right: 25px;
+			&:last-child{
+				padding-right: 0;
+			}
+		}	
+	}
+	.bot_content{
+		background: #e5e5e5;
+		margin-top: 205px;
+		font-weight: bold;
+		ul {
+			li {
+				cursor: pointer;
+				width: 25%;
+				float: left;
+				padding:11px 11px 12px 12px;
+			}	
+		}
+		.items_bot{	
+			display: flex;
+			justify-content: center;
+			padding:25px 0px 23px 0px;
+			text-align: center;
+			margin: 0 auto;
+			border:3px solid #000000;
+			span {
+				padding-left: 10px;
+				padding-top: 5px;
+			}
+		}
+	}
+}
+/*------------content----------*/
+/*------------footer----------*/
+.footer{
+	color: #ffffff;
+	.footer_contain{
+		background: #000000;
+		padding: 34px 0 0 0px;
+		width: 100%;
+		font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	}
+	a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	.text_link{
+		font-size: 12px;
+		ul {
+			li {
+				float: left;
+				padding: 0 15px;
+				border-right: 1px solid #eaeaea;
+				&:last-child{
+					padding-right: 0;
+					border-right: none;
+				}
+				&:first-child{
+					padding-left: 0;
+				}
+
+			}
+		}
+	}
+	.copyright{
+		text-align: center;
+		padding-top: 84px;
+		padding-bottom: 48px;
+		p {
+			font-size: 13px;
+		}
+		.title_cp{
+			font-weight: bold;
+			font-size: 16px;
+			margin-bottom: 15px;
+		}
+		.add{
+			margin-bottom: 12px;
+		}
+		.tel{
+			font-weight: bold;
+		}
+	}
+}
+/*------------footer----------*/
